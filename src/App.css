@@ -29,8 +29,13 @@ body {
 }
 
 * {
-  font-family: sans-serif;
+  font-family: "Montreal";
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
+}
+h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
 }
