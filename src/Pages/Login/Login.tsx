@@ -33,9 +33,27 @@ function Login() {
         exit="exit"
       >
         <div className="inner-container">
-          <h2>Let's Stock 'n' Roll</h2>
-          <input type="text" placeholder="number" />
-          <input type="text" placeholder="password" />
+          <h2 className="header">Let's Stock 'n' Roll</h2>
+          <div className="input-wrapper">
+            <label htmlFor="phoneNumber" className="numberLabel">
+              +91 |
+            </label>
+            <input
+              id="phoneNumber"
+              type="text"
+              placeholder="Phone Number"
+              className="username input-base-styles"
+            />
+          </div>
+          <div className="input-wrapper">
+            <label htmlFor="password" className="passwordLabel"></label>
+            <input
+              id="password"
+              type="text"
+              placeholder="Password"
+              className="password input-base-styles"
+            />
+          </div>
           <p className="forgot-password">Forgot Password?</p>
           <button type="submit">Login</button>
           <p>Wanna Join us? Contact Us</p>

@@ -30,7 +30,7 @@ body {
 
 * {
   font-family: "Montreal";
-  font-weight: 400;
+  /* font-weight: 300; */
   font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
@@ -38,4 +38,35 @@ h2 {
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
+}
+
+.input-base-styles {
+  border: 1px solid var(--sky);
+  padding: 1rem;
+  border-radius: 25px;
+  height: 25px;
+  width: 250px;
+}
+
+.username {
+  padding-left: 1.5rem;
+  text-indent: 35px;
+}
+
+.input-base-styles:focus-visible {
+  outline: none;
+}
+
+.input-wrapper {
+  position: relative;
+  margin: 1rem;
+}
+
+.numberLabel {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  line-height: 25px;
+  padding: 2px;
+  margin-left: 5px;
 }
